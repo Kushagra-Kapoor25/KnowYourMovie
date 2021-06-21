@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Know Your Movie</title>
+</head>
+<body>
+    <div class = "nav">
+        <a href="/"><h1> Know Your Movie</h1></a>
+    </div>
+    <div id="content">
+    <h2> <%= title %> </h2>
+    <img src= "<%= poster %>"  alt="Image" height="350"/>
+    <h3>Released Year: <%= year %> </h3>
+    <p><strong>Duration: </strong> <%= length %> </p>
+    <p><strong>Rating: </strong> <%= rating %> </p>
+    <p><strong>Plot: </strong> <%= plot %> </p>
+    <p><strong>Cast:</strong></p>
+    <ol>
+    <% cast.forEach((c)=>{ %>
+        <li> <%= c.actor %> as <%= c.character %></li>
+    <% }); %>
+    </ol>
+</div>
+<footer>
+    <p>Made with ❤️ by Kreator25</p>
+</footer>
+</body>
+</html>
