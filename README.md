@@ -5,9 +5,9 @@ The details like duration, rating, plot, and cast are displayed.
 
 ## Screenshots
 
-<img src="images/img1.jpg" height = "200" alt = "HomePage Image"/>
+<img src="images/img1.jpg" height = "400" alt = "HomePage Image"/>
 
-<img src="images/img2.jpg" height = "200" alt="Search Result"/>
+<img src="images/img2.jpg" height = "400" alt="Search Result"/>
 
 ## Run Locally
 
